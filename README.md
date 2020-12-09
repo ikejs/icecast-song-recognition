@@ -16,7 +16,7 @@ npm i icecast-song-recognition --save
 
 ## Usage
 
-```
+```javascript
 const { identifySong } = require("icecaast-song-recognition");
 
 
