@@ -5,6 +5,7 @@ An npm module for getting song metadata from Icecast streams with sound recognit
 Perfect for Icecast streams that don't already contain song metadata.
 
 [![GitHub issues](https://img.shields.io/github/issues/ikejs/icecast-song-recognition)](https://github.com/ikejs/icecast-song-recognition/issues)
+[![Travis CI Build](https://travis-ci.com/ikejs/icecast-song-recognition.svg?branch=master)]()
 
 ## Installation
 
