@@ -1,0 +1,52 @@
+{
+  "name": "icecast-song-recognition",
+  "version": "1.0.0",
+  "description": "Identify songs from Icecast streams via ACRCloud song recognition.",
+  "main": "umd/icecast-song-recognition.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm/*",
+    "umd/*"
+  ],
+  "scripts": {
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "prepare": "rollup --config",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikejs/icecast-song-recognition.git"
+  },
+  "keywords": [
+    "icecast",
+    "recognition",
+    "shazam",
+    "identifier",
+    "detector",
+    "logger",
+    "radio",
+    "station",
+    "API"
+  ],
+  "author": "Ike Holzmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikejs/icecast-song-recognition/issues"
+  },
+  "homepage": "https://github.com/ikejs/icecast-song-recognition#readme",
+  "dependencies": {
+    "acrcloud": "^1.4.0",
+    "fs": "0.0.1-security",
+    "interstice": "^4.0.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.34.2",
+    "shelljs": "^0.8.4",
+    "uid": "^2.0.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.1.0",
+    "dotenv": "^8.2.0",
+    "jest": "^26.6.3",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
