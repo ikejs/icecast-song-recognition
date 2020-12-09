@@ -1,6 +1,6 @@
 {
   "name": "icecast-song-recognition",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Identify songs from Icecast streams via ACRCloud song recognition.",
   "main": "umd/icecast-song-recognition.js",
   "module": "esm/index.js",
